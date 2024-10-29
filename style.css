@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+    @font-face {
+        font-family: Montserrat:ital;
+        src: url(../fonts/Montserrat);
+     }
+
+
+    body {
+       background-color: rgb(0, 0, 0);
+       text-align: center;
+       padding-top: 0.5px; 
+        
+       
+     }
+
+
+    body div{
+        background-image: url(imagens/logo/furiosa\ logo.png);
+     }
+
+
+    header{
+        min-height: 150px;
+        padding-top: 1px;
+    
+     }
+
+
+    nav{
+        padding: 10px; box-shadow: 0px 07px 7px rgba(0, 0, 0, 0.192); 
+        text-align: left;
+     }    
+
+
+    nav > a{
+        background-color: rgb(20, 20, 20);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition-duration: 0.5s;
+        font-weight: bold;
+     }
+
+
+     main{
+        background-color: rgb(252, 252, 252);
+        padding-left: 200px;
+        padding-right: 200px;
+        border-radius: 5px;
+     }
+
+
+     article{
+        background-color: rgb(231, 226, 226);
+        min-width: 320px;
+        max-width: 800px;
+        margin: auto;
+        
+     } 
+
+
+     article h2{
+        font-size: 40px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 70px;
+    
+     }
+
+
+     article > p{
+        padding: 50px;
+        font-family: Montserrat;
+        font-size: 22px;
+        text-align: justify;
+        padding-top: 0%;
+     } 
+
+
+     article a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: rgba(0, 0, 0, 0.795);
+     }
+
+
+     article strong{
+        font-weight: bold;
+     }
+
+
+     #cblol{
+        width: 80%;
+
+     }
+    
+
+     h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: xx-large;
+     } 
+
+
+     #espaço{
+        padding-top: 60px;
+     }
+
+
+     #credito{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+     }
+
+
+     #music{
+        text-decoration: underline;
+     }
+
+
+     #final{
+        padding-top: 50px;
+     }
+
+
+     h3{
+        font-family: 'Times New Roman', Times, serif;
+     }
+
+
+     .jogadores{
+        width: 80%;
+        
+
+     }
+    
+
+     div.video{
+        margin: 0px -0px 30px -0px;
+        padding: 50px;
+        padding-bottom: 57%;
+        position: relative;
+        background-image: none;
+    
+     }
+
+
+     div.video > iframe{
+        position: absolute;
+        top: 0%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+     }
+
+     
+    footer{
+        color: white;
+        
+     } 
